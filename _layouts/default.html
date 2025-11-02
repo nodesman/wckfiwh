@@ -7,8 +7,30 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <main class="container">
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="branding">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% if site.description %}
+        <p class="site-tagline">{{ site.description }}</p>
+        {% endif %}
+      </div>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container content">
     {{ content }}
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© {{ "now" | date: "%Y" }} {{ site.author | default: "" }} · <a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+      <p class="muted">Built with Jekyll · <a href="{{ '/feed.xml' | relative_url }}">Subscribe</a></p>
+    </div>
+  </footer>
 </body>
 </html>
