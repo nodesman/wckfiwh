@@ -3,8 +3,8 @@ author: Your Name
 description: >- # this means to ignore newlines until "baseurl:"
   How and Why Strategic Privacy Unlocks Your True Potential.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/whattokeepfromindians" # repository name for GitHub Pages project site
+url: "" # optional: set to https://<username>.github.io if desired
 
 # Build settings
 theme: minima
