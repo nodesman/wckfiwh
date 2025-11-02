@@ -10,3 +10,8 @@ url: "" # optional: set to https://<username>.github.io if desired
 theme: minima
 plugins:
   - jekyll-feed
+
+# Make posts always publish and use clean URLs
+future: true
+timezone: Asia/Kolkata
+permalink: /chapters/:title/
