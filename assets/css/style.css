@@ -76,6 +76,8 @@ body {
   padding: 28px 0 56px;
 }
 .content > *:first-child { margin-top: 0; }
+/* Help long words/URLs wrap on small screens */
+.content { overflow-wrap: anywhere; }
 
 h1, h2, h3 {
   line-height: 1.25;
@@ -146,3 +148,52 @@ img { max-width: 100%; height: auto; border-radius: 6px; }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; }
 .site-footer p { margin: 0; }
 .muted { color: var(--muted); }
+
+/* Install button + iOS hint */
+.install-button {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--fg);
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-left: 18px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+.install-button:hover { border-color: var(--accent); color: var(--accent); }
+.install-hint {
+  position: fixed; left: 16px; right: 16px; bottom: 16px;
+  background: var(--bg); color: var(--fg);
+  border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px 12px;
+  box-shadow: var(--shadow);
+  font-size: 0.95rem;
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .container { padding: 0 16px; }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 20px 0 16px;
+  }
+
+  .site-nav { margin-top: 6px; }
+  .site-nav a {
+    margin: 0 16px 0 0;
+    display: inline-block;
+    padding: 6px 0;
+  }
+  .install-button { margin-left: 0; }
+
+  h1 { font-size: 1.9rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.1rem; }
+
+  ul, ol { padding-left: 1rem; }
+  hr { margin: 1.25rem 0; }
+}

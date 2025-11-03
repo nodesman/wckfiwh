@@ -15,3 +15,5 @@ plugins:
 future: true
 timezone: Asia/Kolkata
 permalink: /chapters/:title/
+include:
+  - sw.js
