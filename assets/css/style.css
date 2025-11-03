@@ -205,7 +205,7 @@ body.drawer-open { overflow: hidden; }
     padding: 16px 0 14px;
   }
   .hamburger { display: inline-flex; }
-  .branding { display: block; }
+  .branding { display: block; min-width: 0; }
   .branding .site-title { display: inline-block; }
   .site-tagline { margin-top: 2px; line-height: 1.3; }
 
