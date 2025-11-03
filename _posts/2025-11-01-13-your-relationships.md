@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 11: Your Relationships: The United Front"
+title: "Chapter 13: Your Relationships: The United Front"
 ---
 
 Your romantic relationship, whether a new partnership or a long-term marriage, requires a firewall. It is a sovereign nation with a population of two. To thrive, it must be protected from the interference of even the most well-meaning family and friends.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 10: Your Finances: The Black Box"
+title: "Chapter 12: Your Finances: The Black Box"
 ---
 
 Nowhere is the art of keeping more critical than in the realm of your finances. In India, money is never just money. It is a metric of worth, a tool of comparison, a source of jealousy, and a lever of control. To protect your peace, your financial life must become a black box.

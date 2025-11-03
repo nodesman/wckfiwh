@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 9: The Private Laboratory: Building Your Space for Innovation"
+title: "Chapter 11: The Private Laboratory: Building Your Space for Innovation"
 ---
 
 An unconventional idea is an experiment. And every experiment needs a laboratory.

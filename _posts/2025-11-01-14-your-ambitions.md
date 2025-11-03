@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 12: Your Ambitions: The R&D Department"
+title: "Chapter 14: Your Ambitions: The R&D Department"
 ---
 
 Your ambitions, your unconventional career plans, your "Big Idea"—these are the most fragile assets you own. They are seedlings that need to be nurtured in the controlled environment of your Private Laboratory before they are strong enough to face the harsh weather of public opinion.

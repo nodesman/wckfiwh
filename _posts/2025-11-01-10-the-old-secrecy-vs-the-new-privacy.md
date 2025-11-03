@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 8: The Old Secrecy vs. The New Privacy"
+title: "Chapter 10: The Old Secrecy vs. The New Privacy"
 ---
 
 It is crucial to distinguish the art of keeping from the habits of the past. The methods of our parents and grandparents were born from a different world. Theirs was a strategy of secrecy, while ours must be a strategy of privacy.

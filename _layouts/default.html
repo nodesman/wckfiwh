@@ -40,7 +40,7 @@
       <button class="drawer-close" id="drawerClose" aria-label="Close menu">×</button>
     </div>
     <nav class="drawer-body">
-      <h3>Part 1: The Case for Keeping</h3>
+      <h3>Part 1: The Diagnosis: The Hidden Costs of Transparency</h3>
       <ol class="toc-list">
       {% for i in (1..5) %}
         {% for p in site.posts %}
@@ -52,9 +52,9 @@
         {% endfor %}
       {% endfor %}
       </ol>
-      <h3>Part 2: The Art of Keeping</h3>
+      <h3>Part 2: The Art: Forging a Sovereign Mind</h3>
       <ol class="toc-list">
-      {% for i in (6..8) %}
+      {% for i in (6..10) %}
         {% for p in site.posts %}
           {% assign ch_head = p.title | split: ':' | first %}
           {% assign ch_num = ch_head | split: ' ' | last | plus: 0 %}
@@ -64,9 +64,9 @@
         {% endfor %}
       {% endfor %}
       </ol>
-      <h3>Part 3: The Practice of Keeping</h3>
+      <h3>Part 3: The Practice: Your Private Laboratory in Action</h3>
       <ol class="toc-list">
-      {% for i in (9..13) %}
+      {% for i in (11..15) %}
         {% for p in site.posts %}
           {% assign ch_head = p.title | split: ':' | first %}
           {% assign ch_num = ch_head | split: ' ' | last | plus: 0 %}

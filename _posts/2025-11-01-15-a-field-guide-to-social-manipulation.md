@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 13: A Field Guide to Social Manipulation"
+title: "Chapter 15: A Field Guide to Social Manipulation"
 ---
 
 To defend your boundaries, you must first recognize the weapons used to breach them. Information is leverage, and in our society, it is often used in subtle ways to guide you back to the "safe" path.

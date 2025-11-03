@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 6: The Spectrum of Telling: The Four Arts You Must Master"
+title: "Chapter 8: The Spectrum of Telling: The Four Arts You Must Master"
 ---
 
 Having made the case for *why* we must keep, we now turn to the *what* and *how*. To do this, we must redefine "telling." It is not a simple, single action. It is a complex spectrum of communication, from the faintest signals to the most deliberate statements. To navigate our world is to understand this spectrum in its entirety.

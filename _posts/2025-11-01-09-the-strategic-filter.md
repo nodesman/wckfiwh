@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chapter 7: The Strategic Filter: Your New Mind"
+title: "Chapter 9: The Strategic Filter: Your New Mind"
 ---
 
 Understanding the Spectrum of Telling is the first step. Now, you need a tool to navigate it. You need a new mind.
