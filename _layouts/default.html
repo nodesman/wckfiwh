@@ -3,17 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#175fe6">
+  <meta name="theme-color" content="#0e1116">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <link rel="manifest" href="{{ '/assets/manifest.webmanifest' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/icons/icon-180.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,500;7..72,700&display=swap" rel="stylesheet">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="drawer" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
       <div class="branding">
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         {% if site.description %}
@@ -28,7 +34,71 @@
     </div>
   </header>
 
+  <aside class="drawer" id="drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-title">Table of Contents</div>
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu">×</button>
+    </div>
+    <nav class="drawer-body">
+      <h3>Part 1: The Case for Keeping</h3>
+      <ol class="toc-list">
+      {% for i in (1..5) %}
+        {% for p in site.posts %}
+          {% assign ch_head = p.title | split: ':' | first %}
+          {% assign ch_num = ch_head | split: ' ' | last | plus: 0 %}
+          {% if ch_num == i %}
+            <li class="toc-item{% if page.url == p.url %} active{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ol>
+      <h3>Part 2: The Art of Keeping</h3>
+      <ol class="toc-list">
+      {% for i in (6..8) %}
+        {% for p in site.posts %}
+          {% assign ch_head = p.title | split: ':' | first %}
+          {% assign ch_num = ch_head | split: ' ' | last | plus: 0 %}
+          {% if ch_num == i %}
+            <li class="toc-item{% if page.url == p.url %} active{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ol>
+      <h3>Part 3: The Practice of Keeping</h3>
+      <ol class="toc-list">
+      {% for i in (9..13) %}
+        {% for p in site.posts %}
+          {% assign ch_head = p.title | split: ':' | first %}
+          {% assign ch_num = ch_head | split: ' ' | last | plus: 0 %}
+          {% if ch_num == i %}
+            <li class="toc-item{% if page.url == p.url %} active{% endif %}"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ol>
+    </nav>
+  </aside>
+
+  <div class="backdrop" id="backdrop" hidden></div>
+
   <main class="container content">
+    {% assign ch_head_self = page.title | split: ':' | first %}
+    {% assign ch_num_self = ch_head_self | split: ' ' | last | plus: 0 %}
+    {% assign total_chapters = site.posts | size %}
+    {% if ch_num_self > 0 %}
+    <nav class="breadcrumb">
+      {% if ch_num_self <= 5 %}
+        <span class="crumb">Part 1</span>
+      {% elsif ch_num_self <= 8 %}
+        <span class="crumb">Part 2</span>
+      {% else %}
+        <span class="crumb">Part 3</span>
+      {% endif %}
+      <span class="sep">•</span>
+      <span class="crumb">Chapter {{ ch_num_self }} of {{ total_chapters }}</span>
+      <span class="progress"><span class="bar" style="width: {{ ch_num_self | times: 100 | divided_by: total_chapters }}%"></span></span>
+    </nav>
+    {% endif %}
     {{ content }}
   </main>
 
@@ -39,5 +109,6 @@
     </div>
   </footer>
   <script defer src="{{ '/assets/js/pwa.js' | relative_url }}"></script>
+  <script defer src="{{ '/assets/js/ui.js' | relative_url }}"></script>
 </body>
 </html>
