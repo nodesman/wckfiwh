@@ -67,7 +67,7 @@ body {
 
 /* Content */
 .content {
-  padding: 28px 0 56px;
+  padding: 28px 0 48px;
 }
 .content > *:first-child { margin-top: 0; }
 /* Help long words/URLs wrap on small screens */
@@ -75,6 +75,17 @@ body {
 .content, .post, .post-title, .post-content {
   font-family: var(--font-serif);
   font-optical-sizing: auto;
+}
+
+.content-panel {
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  padding: 24px 24px 40px;
+  margin: 24px 0 40px;
+  background:
+    radial-gradient(circle at top left, rgba(88,166,255,0.12), transparent 55%),
+    var(--bg);
+  box-shadow: 0 22px 60px rgba(0,0,0,0.55);
 }
 
 h1, h2, h3 {
