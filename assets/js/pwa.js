@@ -25,55 +25,91 @@
     e.preventDefault();
     deferredPrompt = e;
     if (installBtn) installBtn.hidden = false;
+    checkAndShowOverlay();
   });
 
   // Force button visibility on iOS Safari if not already standalone
   if (isIOS && !isStandalone && installBtn) {
     installBtn.hidden = false;
+    checkAndShowOverlay();
   }
 
-  // Move button to drawer on mobile for better layout
-  if (window.innerWidth < 1024 && installBtn) {
-    var drawerBody = document.querySelector('.drawer-body');
-    if (drawerBody) {
-      installBtn.style.display = 'block';
-      installBtn.style.width = '100%';
-      installBtn.style.margin = '20px 0';
-      installBtn.style.padding = '12px';
-      drawerBody.insertBefore(installBtn, drawerBody.firstChild);
+  function checkAndShowOverlay() {
+    var dismissed = localStorage.getItem('pwa_overlay_dismissed');
+    if (dismissed || isStandalone) return;
+
+    // Only show on first 3 chapters (Chapter 1, 2, 3)
+    var path = window.location.pathname;
+    var isEarlyChapter = /\/(01|02|03)-/.test(path) || path === '/' || path === '/index.html';
+    
+    if (isEarlyChapter) {
+      setTimeout(showDownloadOverlay, 2000); // Show after 2 seconds
     }
   }
 
-  function showIOSDownloadHint() {
-    var hint = document.createElement('div');
-    hint.className = 'install-hint';
-    hint.innerHTML = '<span>To download this book: Tap <strong>Share</strong> and then <strong>"Add to Home Screen"</strong>.</span><button style="background:none;border:0;color:inherit;margin-left:10px;font-weight:bold;cursor:pointer">×</button>';
-    document.body.appendChild(hint);
+  function showDownloadOverlay() {
+    if (document.getElementById('downloadOverlay')) return;
 
-    var dismiss = function() {
-      hint.style.opacity = '0';
-      hint.style.transition = 'opacity 0.5s';
-      setTimeout(function() { hint.remove(); }, 500);
+    var overlay = document.createElement('div');
+    overlay.id = 'downloadOverlay';
+    overlay.className = 'download-overlay';
+    
+    var content = '';
+    if (isIOS) {
+      content = `
+        <div class="overlay-content">
+          <button class="overlay-close">×</button>
+          <h2>Download this book</h2>
+          <p>Read offline anytime by adding this book to your home screen.</p>
+          <div class="ios-instructions">
+            Tap the <strong>Share</strong> icon <img src="/assets/icons/ios-share.svg" style="display:inline;width:20px;margin:0 2px;vertical-align:middle" alt="share"> then <strong>"Add to Home Screen"</strong>.
+          </div>
+          <button class="btn-primary overlay-dismiss-btn">Maybe Later</button>
+        </div>
+      `;
+    } else {
+      content = `
+        <div class="overlay-content">
+          <button class="overlay-close">×</button>
+          <h2>Download this book</h2>
+          <p>Get the full experience. Read offline anytime like a native app.</p>
+          <button class="btn-primary overlay-install-btn">Download Now</button>
+          <button class="overlay-dismiss-link">Maybe Later</button>
+        </div>
+      `;
+    }
+
+    overlay.innerHTML = content;
+    document.body.appendChild(overlay);
+
+    var close = function() {
+      overlay.classList.add('fade-out');
+      localStorage.setItem('pwa_overlay_dismissed', 'true');
+      setTimeout(function() { overlay.remove(); }, 500);
     };
 
-    hint.querySelector('button').addEventListener('click', dismiss);
-    setTimeout(dismiss, 10000);
+    overlay.querySelector('.overlay-close').addEventListener('click', close);
+    var dismissBtn = overlay.querySelector('.overlay-dismiss-btn') || overlay.querySelector('.overlay-dismiss-link');
+    if (dismissBtn) dismissBtn.addEventListener('click', close);
+
+    var installBtnAction = overlay.querySelector('.overlay-install-btn');
+    if (installBtnAction && deferredPrompt) {
+      installBtnAction.addEventListener('click', function() {
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then(function() {
+          close();
+        });
+      });
+    }
   }
 
+  // Handle the existing nav/drawer button
   if (installBtn) {
     installBtn.addEventListener('click', function() {
       if (deferredPrompt) {
-        installBtn.disabled = true;
         deferredPrompt.prompt();
-        deferredPrompt.userChoice.then(function(choiceResult) {
-          installBtn.disabled = false;
-          if (choiceResult.outcome === 'accepted') {
-            installBtn.hidden = true;
-          }
-          deferredPrompt = null;
-        });
       } else if (isIOS && !isStandalone) {
-        showIOSDownloadHint();
+        showDownloadOverlay();
       }
     });
   }

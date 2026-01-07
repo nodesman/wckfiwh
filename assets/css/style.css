@@ -416,6 +416,70 @@ h1:hover .heading-share, h2:hover .heading-share, h3:hover .heading-share {
   z-index: 3000;
 }
 
+/* Download Overlay */
+.download-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  backdrop-filter: blur(4px);
+  z-index: 4000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.4s ease;
+}
+.download-overlay.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.overlay-content {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 40px 30px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.overlay-content h2 { margin-top: 0; }
+.overlay-content p { color: var(--muted); margin-bottom: 24px; }
+.overlay-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: 0;
+  color: var(--muted);
+  font-size: 28px;
+  cursor: pointer;
+}
+.overlay-dismiss-btn, .overlay-install-btn { width: 100%; margin-bottom: 12px; }
+.overlay-dismiss-link {
+  background: none;
+  border: 0;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.ios-instructions {
+  background: rgba(255,255,255,0.05);
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+  line-height: 1.4;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
 /* Mobile tweaks */
 @media (max-width: 640px) {
   .container { padding: 0 20px; }
