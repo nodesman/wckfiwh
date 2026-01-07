@@ -15,6 +15,8 @@ This is not theoretical. It is the lived reality of millions. The Phantom Commit
 
 The art of keeping is about protecting your seedling from this hurricane.
 
+![The Three Stages of Ambition: From hidden seed to undeniable reality]({{ '/assets/images/chapter-14-stages.png' | relative_url }})
+
 **The Stages of Ambition:**
 
 1.  **The Seed Stage:** This is the initial spark of an idea. It is fragile and not fully formed. At this stage, it should be kept almost entirely private. This is the time for internal work: research, reflection, and quiet experimentation. Disclosing it now is like planting a seed in a blizzard.

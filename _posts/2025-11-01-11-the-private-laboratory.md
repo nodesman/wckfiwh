@@ -9,7 +9,11 @@ A laboratory is a safe, controlled environment where you can test a hypothesis w
 
 Failure outside the lab, in the public square of Indian social life, is not data; it is a permanent stain on your character. This is the consequence of the Moral Diagnosis.
 
-When you disclose your unconventional idea prematurely, you are inviting the world into your delicate, sterile laboratory. But because our culture defaults to a Moral Diagnosis, people don't enter as fellow scientists eager to observe. They enter like a demolition crew, shouting that your experiment is morally flawed, that you are a bad scientist, and that you should be doing the same "proven" experiments as everyone else.
+When you disclose your unconventional idea prematurely, you are inviting the world into your delicate, sterile laboratory. But because our culture defaults to a Moral Diagnosis, people don't enter as fellow scientists eager to observe.
+
+![The Demolition Crew: When well-meaning advice acts as a wrecking ball for your dreams]({{ '/assets/images/chapter-11-demolition.png' | relative_url }})
+
+They enter like a demolition crew, shouting that your experiment is morally flawed, that you are a bad scientist, and that you should be doing the same "proven" experiments as everyone else.
 
 This is why the most important practice for a life of growth, innovation, and authenticity is the creation of a **Private Laboratory for the soul.**
 

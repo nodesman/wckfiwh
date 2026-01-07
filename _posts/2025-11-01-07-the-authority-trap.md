@@ -18,6 +18,8 @@ The solution is not to disrespect them. It is to protect yourself with boundarie
 
 You must recognize that everyone has a limit—a limit to their understanding, their courage, and their ability to see your vision. Your responsibility is not to convert them, but to protect your work from their limitations. This requires a form of "face-saving," a charade, if you will. But do not mistake this for being inauthentic. It is not a lie; it is a firewall.
 
+![The Mental Firewall: Protecting your vision from the limitations of others]({{ '/assets/images/chapter-7-firewall.png' | relative_url }})
+
 It is the polite nod when unsolicited advice is given.
 It is the vague, non-committal answer when asked about your unconventional career plans.
 It is the curated presentation of only your successes, not your vulnerable, in-progress struggles.

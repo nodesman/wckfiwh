@@ -16,7 +16,11 @@ Compartmentalization is the conscious, disciplined application of this intellige
 
 Think of it like this:
 
-**1. It is Psychological Hygiene (Brushing Your Teeth):** You don't expose your internal world to the bacteria of public opinion before it's ready. Your raw ideas, your half-formed plans, your vulnerable ambitions—these are for your Private Laboratory. To expose them prematurely is to invite infection and decay. Compartmentalization is the act of cleaning and preparing your thoughts before you present them to the world. It is basic mental hygiene.
+**1. It is Psychological Hygiene (Brushing Your Teeth):** You don't expose your internal world to the bacteria of public opinion before it's ready. Your raw ideas, your half-formed plans, your vulnerable ambitions—these are for your Private Laboratory.
+
+![Psychological Hygiene: Cleaning your thoughts with privacy]({{ '/assets/images/chapter-6-hygiene.png' | relative_url }})
+
+To expose them prematurely is to invite infection and decay. Compartmentalization is the act of cleaning and preparing your thoughts before you present them to the world. It is basic mental hygiene.
 
 **2. It is Social Safety (Stopping at a Traffic Light):** Unfiltered transparency is a recipe for social collisions. Driving your raw, unprocessed ambitions head-first into the oncoming traffic of a respected elder's "practical" advice will cause a wreck. It will damage your ambition and your relationship. Compartmentalization is the act of looking both ways, of waiting for the right moment, of proceeding with caution. It is a fundamental rule of the road for a healthy social life.
 

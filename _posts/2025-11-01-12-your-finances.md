@@ -17,6 +17,8 @@ When you disclose financial details, you invite consequences that have nothing t
 
 Applying the Strategic Filter to your finances is simple. Your desired outcome is almost always to maintain respectful, peaceful relationships. Disclosing your salary is rarely the best way to achieve this. The most likely unintended consequence is the introduction of judgment, comparison, and interference.
 
+![The Art of the Non-Answer: Using polite deflection to maintain boundaries]({{ '/assets/images/chapter-12-non-answer.png' | relative_url }})
+
 Therefore, the strategic choice is deflection. You must learn the gentle art of the non-answer.
 
 **When asked about your salary:**

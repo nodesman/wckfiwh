@@ -5,7 +5,11 @@ title: "Chapter 13: Your Relationships: The United Front"
 
 Your romantic relationship, whether a new partnership or a long-term marriage, requires a firewall. It is a sovereign nation with a population of two. To thrive, it must be protected from the interference of even the most well-meaning family and friends.
 
-The cardinal rule is this: **Your primary loyalty is to your partner.** You are a team. You must present a united front, always. Your parents' home is now a foreign embassy; you are the sole ambassadors for your union.
+The cardinal rule is this: **Your primary loyalty is to your partner.** You are a team. You must present a united front, always.
+
+![The Relationship Embassy: Treating your parents' home as a foreign diplomatic post]({{ '/assets/images/chapter-13-embassy.png' | relative_url }})
+
+Your parents' home is now a foreign embassy; you are the sole ambassadors for your union.
 
 ![The Relationship Firewall: Protecting the sovereign nation of two]({{ '/assets/images/chapter-13-relationships.png' | relative_url }})
 

@@ -26,6 +26,10 @@ Consider your options. If you want your parents' approval, will telling them abo
 
 **3. What is the most likely *unintended consequence* of this disclosure?**
 
-This is the most crucial question. Think like a chess player. What is the most probable result of this disclosure? Not the one you hope for, but the one that is most likely based on your past experiences with this person and the culture at large. The most likely outcome of sharing your new business idea isn't that they'll steal it; it's that they'll talk you out of it with their own fear, installing a new voice in your Phantom Committee.
+This is the most crucial question. Think like a chess player. What is the most probable result of this disclosure?
+
+![Unintended Consequences: Thinking several moves ahead in social interactions]({{ '/assets/images/chapter-9-consequences.png' | relative_url }})
+
+Not the one you hope for, but the one that is most likely based on your past experiences with this person and the culture at large. The most likely outcome of sharing your new business idea isn't that they'll steal it; it's that they'll talk you out of it with their own fear, installing a new voice in your Phantom Committee.
 
 This filter is not about building walls. It is about building a door with a lock. It gives you the power to decide who you let in, when, and why. It is the tool that turns you from an open book into the author of your own story.

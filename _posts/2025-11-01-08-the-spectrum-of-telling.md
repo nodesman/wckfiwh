@@ -19,7 +19,11 @@ This is the curated, semi-conscious narrative you present. It is the "everything
 
 ### 3. Accidental Disclosure: The Leaks in the Dam
 
-This is the slip of the tongue, the frustrated sigh, the moment the mask slips and a raw, unfiltered truth leaks out. It is complaining about your spouse in a moment of anger or revealing a secret ambition when you're feeling down. The goal here is **Mindfulness**. To understand your emotional triggers and moments of vulnerability, and to learn to pause before you speak.
+This is the slip of the tongue, the frustrated sigh, the moment the mask slips and a raw, unfiltered truth leaks out. It is complaining about your spouse in a moment of anger or revealing a secret ambition when you're feeling down.
+
+![Accidental Disclosure: The leaks in the dam of privacy]({{ '/assets/images/chapter-8-leak.png' | relative_url }})
+
+The goal here is **Mindfulness**. To understand your emotional triggers and moments of vulnerability, and to learn to pause before you speak.
 
 ### 4. Strategic Disclosure: The Key in the Lock
 

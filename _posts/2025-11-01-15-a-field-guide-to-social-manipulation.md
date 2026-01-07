@@ -19,6 +19,9 @@ This is a field guide to the most common tactics of social manipulation you will
 
 *   **What it is:** Using the success of others (real or exaggerated) as a yardstick to measure your own life.
 *   **Example:** "Sharma ji's son is already an engineering manager in America. You have so much potential, you should think about that."
+
+![The Comparison Game: Using social yardsticks to enforce conformity]({{ '/assets/images/chapter-15-comparison.png' | relative_url }})
+
 *   **The Goal:** To trigger your insecurity and use social pressure to make you question your own timeline and definition of success.
 
 ### 3. The Guilt Trip ("If you cared about this family, you would...")

@@ -13,7 +13,11 @@ Let us revisit the man with the five-year-old phone. He is a master of the Old S
 
 The primary tool of the New Privacy is the **Strategic Filter**. It is not about managing your broadcast by pretending to be less than you are. It is about carefully managing your disclosures.
 
-The practitioner of the New Privacy might own the latest iPhone. They enjoy the fruits of their labor without feeling the need to either flaunt them or hide them. But if someone asks how much it cost, their response is a polite but firm deflection. If asked their salary, they change the subject. They are not broadcasting a false reality; they are simply refusing to participate in conversations that seek to quantify, judge, or lay claim to their life.
+The practitioner of the New Privacy might own the latest iPhone. They enjoy the fruits of their labor without feeling the need to either flaunt them or hide them. But if someone asks how much it cost, their response is a polite but firm deflection.
+
+![Strategic Deflection: The polite mirror that reflects intrusive questions]({{ '/assets/images/chapter-10-deflection.png' | relative_url }})
+
+If asked their salary, they change the subject. They are not broadcasting a false reality; they are simply refusing to participate in conversations that seek to quantify, judge, or lay claim to their life.
 
 The Old Secrecy is about hiding. The New Privacy is about choosing what to reveal.
 
