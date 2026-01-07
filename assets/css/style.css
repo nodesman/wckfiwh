@@ -181,6 +181,13 @@ body.drawer-open { overflow: hidden; }
 }
 .footer-inner { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; }
 .site-footer p { margin: 0; }
+.copyright {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  color: var(--fg);
+}
 .muted { color: var(--muted); }
 
 /* Install button + iOS hint */
