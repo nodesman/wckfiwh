@@ -1,24 +1,24 @@
 /* Base design tokens */
 :root {
   /* Dark mode tokens only */
-  --bg: #0e1116;
-  --fg: #e6edf3;
-  --muted: #8b949e;
-  --border: #30363d;
-  --accent: #58a6ff;
-  --accent-hover: #79c0ff;
-  --code-bg: #161b22;
+  --bg: #000000;
+  --fg: #e2e2e2;
+  --muted: #888888;
+  --border: #333333;
+  --accent: #ffffff; /* Stark white accent for high contrast */
+  --accent-hover: #cccccc;
+  --code-bg: #111111;
   --shadow: none;
-  --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-serif: "Literata", Georgia, Cambria, "Noto Serif", serif;
+  --font-ui: "Libre Franklin", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Newsreader", Georgia, Cambria, serif;
   color-scheme: dark;
 }
 
 /* Global */
 html { -webkit-text-size-adjust: 100%; }
 body {
-  font-family: var(--font-ui);
-  line-height: 1.7;
+  font-family: var(--font-serif); /* Default to serif for reading experience */
+  line-height: 1.6;
   color: var(--fg);
   background: var(--bg);
   margin: 0;
@@ -62,6 +62,11 @@ body {
   color: var(--muted);
   text-decoration: none;
   margin-left: 18px;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
 }
 .site-nav a:hover { color: var(--fg); }
 
@@ -85,8 +90,11 @@ body {
 }
 
 h1, h2, h3 {
-  line-height: 1.25;
+  font-family: var(--font-serif);
+  line-height: 1.2;
   color: var(--fg);
+  font-weight: 700;
+  letter-spacing: -0.02em; /* Tighten headlines for impact */
 }
 h1 { font-size: clamp(1.7rem, 4vw + 0.8rem, 2rem); margin: 0 0 0.8rem; text-wrap: balance; }
 h2 { font-size: clamp(1.25rem, 2.2vw + 0.8rem, 1.6rem); margin: 1.6rem 0 0.6rem; text-wrap: balance; }
@@ -153,10 +161,10 @@ body.drawer-open { overflow: hidden; }
 .drawer-header { position: sticky; top: 0; background: var(--bg); display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; border-bottom: 1px solid var(--border); }
 .drawer-title { font-weight: 600; }
 .drawer-close { background: transparent; border: 0; font-size: 22px; line-height: 1; cursor: pointer; color: var(--fg); }
-.drawer-body { padding: 10px 16px 24px; }
-.drawer-body h3 { margin: 1rem 0 0.4rem; font-size: 1rem; color: var(--muted); }
+.drawer-body { padding: 10px 16px 24px; font-family: var(--font-ui); }
+.drawer-body h3 { margin: 1rem 0 0.4rem; font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; }
 .toc-list { margin: 0.2rem 0 1rem; padding-left: 1rem; }
-.toc-item { margin: 0.2rem 0; }
+.toc-item { margin: 0.2rem 0; font-size: 0.95rem; }
 .toc-item a { color: var(--fg); text-decoration: none; }
 .toc-item.active a { color: var(--accent); font-weight: 600; }
 
