@@ -30,5 +30,33 @@
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeDrawer();
   });
+
+  // Handle responsive behavior
+  var mediaQuery = window.matchMedia('(min-width: 1024px)');
+  
+  function handleScreenChange(e) {
+    if (e.matches) {
+      // Desktop: Reset mobile toggle states
+      if (drawer) drawer.setAttribute('aria-hidden', 'false');
+      document.body.classList.remove('drawer-open');
+      if (backdrop) backdrop.hidden = true;
+      // We don't remove 'open' class from drawer as it might be used for styling, 
+      // but strictly speaking our CSS handles the visibility. 
+      // Cleanest is to close the "mobile" drawer logic.
+      if (drawer) drawer.classList.remove('open');
+      if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
+    } else {
+      // Mobile: Restore accessibility state if strictly closed
+      // If we just transitioned from desktop, drawer is technically "closed" in mobile sense
+      if (drawer && !drawer.classList.contains('open')) {
+        drawer.setAttribute('aria-hidden', 'true');
+      }
+    }
+  }
+
+  // Initial check
+  handleScreenChange(mediaQuery);
+  // Listen for changes
+  mediaQuery.addEventListener('change', handleScreenChange);
 })();
 

@@ -236,3 +236,36 @@ body.drawer-open { overflow: hidden; }
   hr { margin: 1.25rem 0; }
   body { font-size: 17px; }
 }
+
+/* Desktop Sidebar Layout */
+@media (min-width: 1024px) {
+  body {
+    padding-left: 320px; /* Space for sidebar */
+  }
+
+  .drawer {
+    transform: translateX(0); /* Always show */
+    width: 320px;
+    max-width: 320px;
+    box-shadow: none;
+    border-right: 1px solid var(--border);
+    /* Ensure it sits above standard flow but below overlays if any */
+    z-index: 100; 
+  }
+
+  .drawer-close {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .backdrop {
+    display: none !important;
+  }
+
+  .container {
+    max-width: 800px; /* Optimal reading width in the content area */
+  }
+}
