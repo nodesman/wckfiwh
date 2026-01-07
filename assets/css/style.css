@@ -217,6 +217,9 @@ body.drawer-open { overflow: hidden; }
 @media (max-width: 640px) {
   .container { padding: 0 20px; }
 
+  /* Increase content spacing for breathing room */
+  .content { padding-top: 40px; }
+
   .header-inner {
     position: relative;
     justify-content: center; /* Center the branding */
@@ -226,11 +229,13 @@ body.drawer-open { overflow: hidden; }
 
   .hamburger {
     position: absolute;
-    left: 0;
+    left: -6px; /* Offset padding so the bars align with text grid */
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
   }
+  /* Thinner, more elegant bars for mobile */
+  .hamburger span { height: 1.5px; width: 22px; }
 
   .branding {
     text-align: center;
