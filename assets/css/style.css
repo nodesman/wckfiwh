@@ -233,7 +233,7 @@ body.drawer-open { overflow: hidden; }
 
   .hamburger {
     position: absolute;
-    left: 0; /* Align clickable area with the container edge */
+    left: 20px; /* Align with container padding */
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
