@@ -5,6 +5,8 @@ title: "Chapter 15: A Field Guide to Social Manipulation"
 
 To defend your boundaries, you must first recognize the weapons used to breach them. Information is leverage, and in our society, it is often used in subtle ways to guide you back to the "safe" path.
 
+![The Field Guide to Social Manipulation: Seeing through the tactics of control]({{ '/assets/images/chapter-15-manipulation.png' | relative_url }})
+
 This is a field guide to the most common tactics of social manipulation you will experience. Giving them a name is the first step to disarming them.
 
 ### 1. The Concern Troll ("I'm only saying this for your own good...")

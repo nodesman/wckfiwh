@@ -13,6 +13,8 @@ When you disclose your unconventional idea prematurely, you are inviting the wor
 
 This is why the most important practice for a life of growth, innovation, and authenticity is the creation of a **Private Laboratory for the soul.**
 
+![The Private Laboratory: Defending your space for growth and experimentation]({{ '/assets/images/chapter-11-private-laboratory.png' | relative_url }})
+
 "Keeping" is the active, daily work of building and defending the walls of this laboratory.
 
 You build it by **not disclosing your hypothesis prematurely**. You do not need external approval to begin your experiment. Your idea to become a chef, a writer, or an entrepreneur is a hypothesis. The world does not get a vote on whether you are allowed to test it.

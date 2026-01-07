@@ -10,6 +10,8 @@ Your mental health, your confidence, and your very perception of what is possibl
 
 The trap isn't that respected people are secretly malicious. It's that they are human. Their advice is not pure, objective truth; it is a product of their own history, their own fears, and their own risk tolerance. The person you respect can absolutely screw you over, not with a knife in the back, but with a well-meaning word of caution that plants a seed of doubt you can never uproot. They can "eat you alive" with concern, smothering your fragile ambitions with a blanket of practicality.
 
+![The Authority Trap: Smothering ambition with well-meaning concern]({{ '/assets/images/chapter-7-authority-trap.png' | relative_url }})
+
 Indians, in particular, need to learn this lesson. In a culture that prizes respect for elders and authority, challenging the worldview of a respected person feels like a betrayal. So we do the opposite: we overshare, seeking their validation for our most fragile ideas. We hand them the blueprint to our dreams and ask, "Is this feasible?" We are asking a person who built their life in a different world, with different tools, to approve a design they cannot possibly comprehend.
 
 The solution is not to disrespect them. It is to protect yourself with boundaries.

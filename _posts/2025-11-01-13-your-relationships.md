@@ -7,6 +7,8 @@ Your romantic relationship, whether a new partnership or a long-term marriage, r
 
 The cardinal rule is this: **Your primary loyalty is to your partner.** You are a team. You must present a united front, always. Your parents' home is now a foreign embassy; you are the sole ambassadors for your union.
 
+![The Relationship Firewall: Protecting the sovereign nation of two]({{ '/assets/images/chapter-13-relationships.png' | relative_url }})
+
 Involving others in your relationship issues is like inviting a demolition crew into a house you've just started building. It is a catastrophic breach of privacy.
 
 **What to Keep Within the Firewall:**

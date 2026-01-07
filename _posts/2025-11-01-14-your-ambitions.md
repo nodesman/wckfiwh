@@ -7,6 +7,8 @@ Your ambitions, your unconventional career plans, your "Big Idea"—these are th
 
 Your ambition has an R&D department. It is your mind, your journal, your private conversations with trusted mentors. It is not the family dinner table.
 
+![The R&D Department: Shielding your fragile ambitions from the hurricane of judgment]({{ '/assets/images/chapter-14-ambitions.png' | relative_url }})
+
 Exposing a fragile idea ("I think I might want to be a musician") to the hurricane of the Moral Diagnosis ("How will you earn a living?! That is irresponsible!") will kill it before it has a chance to grow.
 
 This is not theoretical. It is the lived reality of millions. The Phantom Committee is particularly vicious when it comes to your career. The ghosts of disapproval will haunt your every unconventional step, whispering that you are foolish, that you will fail, that you are letting everyone down.

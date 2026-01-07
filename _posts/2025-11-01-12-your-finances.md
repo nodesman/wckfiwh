@@ -7,6 +7,8 @@ Nowhere is the art of keeping more critical than in the realm of your finances. 
 
 The contents of the box—your exact salary, your net worth, the price of your car, the size of your investments—are for you and your trusted partners only. What the outside world sees is only the box itself.
 
+![The Financial Black Box: Protecting your peace from judgment and comparison]({{ '/assets/images/chapter-12-finances.png' | relative_url }})
+
 When you disclose financial details, you invite consequences that have nothing to do with your well-being.
 
 *   **Disclosure invites judgment.** If you earn "too much," your spending is scrutinized. If you earn "too little," your life choices are questioned.

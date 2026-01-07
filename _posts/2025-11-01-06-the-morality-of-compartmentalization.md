@@ -10,6 +10,8 @@ What if I told you that this belief is not only wrong, but dangerous? What if I 
 
 The myth is that you have one "authentic" self. The reality is that you are a multi-faceted person who requires different approaches for different situations. The way you speak to your boss is not the way you speak to your child. The way you negotiate a contract is not the way you comfort a grieving friend. This is not being two-faced; this is having emotional and social intelligence.
 
+![The Art of Compartmentalization: Managing different faces for different worlds]({{ '/assets/images/chapter-6-compartmentalization.png' | relative_url }})
+
 Compartmentalization is the conscious, disciplined application of this intelligence to protect your future.
 
 Think of it like this:

@@ -8,6 +8,8 @@ redirect_from:
 
 Understanding the Spectrum of Telling is the first step. Now, you need a tool to navigate it. You need a new mind.
 
+![The Strategic Filter: Transforming raw thoughts into purposeful disclosures]({{ '/assets/images/chapter-9-strategic-filter.png' | relative_url }})
+
 This new mind is a simple, powerful mental model you can use before making any significant disclosure. It is a filter that helps you move from the lower, more dangerous ends of the spectrum (Performative Telling, Accidental Disclosure) to the highest, most powerful end (Strategic Disclosure).
 
 Before you share a significant piece of personal information—be it a plan, a problem, or a piece of good news—run it through these three questions.

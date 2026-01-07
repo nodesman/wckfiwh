@@ -60,3 +60,32 @@
   mediaQuery.addEventListener('change', handleScreenChange);
 })();
 
+// Lightbox logic
+(function() {
+  var lightbox = document.createElement('div');
+  lightbox.className = 'lightbox';
+  lightbox.innerHTML = '<button class="lightbox-close">&times;</button><img src="" alt="">';
+  document.body.appendChild(lightbox);
+
+  var lbImg = lightbox.querySelector('img');
+  var lbClose = lightbox.querySelector('.lightbox-close');
+
+  document.addEventListener('click', function(e) {
+    if (e.target.tagName === 'IMG' && !e.target.closest('.lightbox')) {
+      lbImg.src = e.target.src;
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  lbClose.addEventListener('click', closeLightbox);
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox || e.target === lbImg) closeLightbox();
+  });
+})();
+

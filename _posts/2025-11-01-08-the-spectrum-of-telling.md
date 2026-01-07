@@ -7,6 +7,8 @@ Having made the case for *why* we must keep, we now turn to the *what* and *how*
 
 These are the four arts of telling.
 
+![The Spectrum of Telling: Moving from unconscious broadcasting to strategic disclosure]({{ '/assets/images/chapter-8-spectrum-telling.png' | relative_url }})
+
 ### 1. Unconscious Broadcasting: The Traces You Leave in the Snow
 
 This is the unavoidable, passive data you emit simply by existing. Like footprints in the snow, these are the traces you leave that tell a story you didn't intend to write. It is your accent, your surname, your posture. The goal here is not control—that is the path to paranoia. The goal is **Awareness**. To know what you are broadcasting is to understand the assumptions people will make. You cannot change the footprints, but you can choose the path.
