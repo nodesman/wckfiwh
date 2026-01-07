@@ -418,8 +418,9 @@ img {
   
   .branding .site-title {
     display: block;
-    font-size: 1.3rem; /* Slightly smaller but sharper */
-    line-height: 1;
+    font-size: 1.15rem; /* Reduced to prevent wrapping */
+    line-height: 1.2;
+    white-space: nowrap; /* Force single line */
   }
 
   .site-tagline {
