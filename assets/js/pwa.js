@@ -32,6 +32,18 @@
     installBtn.hidden = false;
   }
 
+  // Move button to drawer on mobile for better layout
+  if (window.innerWidth < 1024 && installBtn) {
+    var drawerBody = document.querySelector('.drawer-body');
+    if (drawerBody) {
+      installBtn.style.display = 'block';
+      installBtn.style.width = '100%';
+      installBtn.style.margin = '20px 0';
+      installBtn.style.padding = '12px';
+      drawerBody.insertBefore(installBtn, drawerBody.firstChild);
+    }
+  }
+
   function showIOSDownloadHint() {
     var hint = document.createElement('div');
     hint.className = 'install-hint';

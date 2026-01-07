@@ -428,41 +428,54 @@ h1:hover .heading-share, h2:hover .heading-share, h3:hover .heading-share {
   }
 
   .header-inner {
-    position: relative;
-    justify-content: center; /* Center the branding */
-    padding: 16px 0 14px;
-    min-height: 28px; /* Ensure height for absolute items */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 20px;
+    min-height: 56px;
   }
 
   .hamburger {
-    position: absolute;
-    left: 20px; /* Align with container padding */
-    top: 50%;
-    transform: translateY(-50%);
-    margin: 0;
+    position: static;
+    transform: none;
+    margin: 0 16px 0 0;
+    padding: 8px 0;
+    flex-shrink: 0;
   }
   /* Thinner, more elegant bars for mobile */
   .hamburger span { height: 1.5px; width: 22px; }
 
   .branding {
-    text-align: center;
-    width: 100%; /* Take full width to center text properly */
-    padding: 0 44px; /* Prevent text from overlapping hamburger */
+    text-align: left;
+    flex: 1;
+    padding: 0;
+    min-width: 0; /* Enable ellipsis */
   }
   
   .branding .site-title {
     display: block;
-    font-size: 1.15rem; /* Reduced to prevent wrapping */
+    font-size: 1rem;
     line-height: 1.2;
-    white-space: nowrap; /* Force single line */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .site-tagline {
     display: none; /* Hide tagline on mobile for cleaner look */
   }
 
-  .site-nav { display: none; } /* Ensure nav is hidden */
-  .install-button { display: none; }
+  .site-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+  }
+  .share-page-btn {
+    padding: 6px 10px;
+    font-size: 0.65rem;
+    margin: 0;
+  }
+  .install-button { display: none; } /* Keep header clean, trigger from JS if needed elsewhere */
 
   h1 { font-size: 1.9rem; }
   h2 { font-size: 1.35rem; }
