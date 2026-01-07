@@ -17,6 +17,8 @@ Consider the difference.
 *   **Non-Judgmental Analysis:** "Interesting. What do you hope to gain from that experience? What's the financial plan? What are the potential risks and rewards?"
 *   **The Moral Diagnosis:** "You are being irresponsible and lazy. You are throwing away your future. You are ungrateful for the opportunities you have."
 
+![The Moral Diagnosis: When personal choices are treated as character flaws]({{ '/assets/images/chapter-5-moral-diagnosis.png' | relative_url }})
+
 This reflex to perform a Moral Diagnosis is devastating. It shuts down all exploration, because people become terrified of even admitting they have a problem. It forces you to solve the wrong issue: instead of solving your actual problem ("How do I build a career I love?"), you are forced to solve a social problem ("How do I manage my parents' disapproval?").
 
 Most importantly, it kills innovation at the root. An unconventional idea is an experiment. An experiment requires the possibility of failure. But when a Moral Diagnosis is the default, failure is not a data point; it is a permanent stain on your character.

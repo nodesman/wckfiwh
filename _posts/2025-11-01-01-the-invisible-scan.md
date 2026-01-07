@@ -3,7 +3,7 @@ layout: post
 title: "Chapter 1: The Man with the Five-Year-Old Phone & The Invisible Scan"
 ---
 
-![A caricature of a traditional Indian man](/assets/images/chapter-1-caricature.png)
+![A caricature of a traditional Indian man]({{ '/assets/images/chapter-1-caricature.png' | relative_url }})
 
 In India, every interaction is an interview.
 

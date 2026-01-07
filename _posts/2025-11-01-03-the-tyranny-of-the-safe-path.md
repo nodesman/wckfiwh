@@ -17,6 +17,8 @@ Second, it is the **outsourcing of your identity**. Your identity is handed to y
 
 Finally, and most tragically, it is the **bartering of your potential for their peace of mind**. This is the core transaction. You are trading your one, wild, precious life for the comfort of your parents and the approval of your relatives. You are sacrificing your potential for their peace. It is the ultimate act of self-abandonment disguised as an act of duty.
 
+![The Resume-Built Human: Sacrificing curiosity and identity for social respectability]({{ '/assets/images/chapter-3-safe-path.png' | relative_url }})
+
 The person who follows the safe path is simply deferring their existential dread. At forty, the question will inevitably surface: "Is this it? Is this all my life was meant to be?"
 
 Learning to "keep" your unconventional ambitions is the first step in resisting this tyranny. It is about creating a private space where you can explore the "unpressured options"—the "good enough" job that funds your passion, the portfolio career, the intentional sabbatical—before the world tells you they are not safe.

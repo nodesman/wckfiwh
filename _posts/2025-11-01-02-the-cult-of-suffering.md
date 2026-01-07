@@ -15,6 +15,8 @@ Think about the subtle reactions you encounter. You share good news about a prom
 
 These are not random acts of pessimism. They are social correction mechanisms. They are the tools the culture uses to pull you back down to the baseline of "normal" struggle. They are a way of saying, "Don't be too happy. It's not safe. It's not right."
 
+![The Nazar-Proof Performance: Intentionally appearing miserable to avoid social judgment]({{ '/assets/images/chapter-2-nazar-proof.png' | relative_url }})
+
 In this environment, "keeping" your joy, your successes, and your unconventional path private is not an act of paranoia. It is an essential act of self-preservation. You are not hiding your happiness from others; you are protecting it from a culture that is conditioned to be suspicious of it.
 
 You are building a greenhouse for your well-being, shielding it from the culturally mandated frost of suffering. This is the first and most profound reason we must learn the art of keeping.
