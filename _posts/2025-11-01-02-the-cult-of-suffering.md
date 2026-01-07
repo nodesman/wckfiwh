@@ -17,6 +17,10 @@ These are not random acts of pessimism. They are social correction mechanisms. T
 
 ![The Nazar-Proof Performance: Intentionally appearing miserable to avoid social judgment]({{ '/assets/images/chapter-2-nazar-proof.png' | relative_url }})
 
-In this environment, "keeping" your joy, your successes, and your unconventional path private is not an act of paranoia. It is an essential act of self-preservation. You are not hiding your happiness from others; you are protecting it from a culture that is conditioned to be suspicious of it.
+In this environment, "keeping" your joy, your successes, and your unconventional path private is not an act of paranoia. It is an essential act of self-preservation.
+
+![The Greenhouse of Well-being: Shielding your joy from the culturally mandated frost of suffering]({{ '/assets/images/chapter-2-greenhouse.png' | relative_url }})
+
+You are not hiding your happiness from others; you are protecting it from a culture that is conditioned to be suspicious of it.
 
 You are building a greenhouse for your well-being, shielding it from the culturally mandated frost of suffering. This is the first and most profound reason we must learn the art of keeping.

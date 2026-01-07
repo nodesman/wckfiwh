@@ -7,6 +7,8 @@ The final pillar of the case for keeping is understanding a fundamental piece of
 
 When presented with a problem or an unconventional choice, the default Indian response is not analytical; it is a **Moral Diagnosis**. The question is not "Let's examine this issue," but rather, "What is the character flaw in this person that led them to this issue?"
 
+![Separating Problem from Person: The struggle for analytical clarity]({{ '/assets/images/chapter-5-separation.png' | relative_url }})
+
 Consider the difference.
 
 **The Problem:** "I am unhappy in my marriage."

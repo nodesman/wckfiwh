@@ -13,6 +13,8 @@ The process of its formation is a vicious cycle.
 
 First comes the **Vulnerable Disclosure**. You share a fragile, personal choice or idea. "I'm thinking of learning to be a chef instead of doing my MBA." You are seeking connection or validation.
 
+![The Vulnerable Disclosure: Offering a fragile idea to the needles of disapproval]({{ '/assets/images/chapter-4-vulnerable-disclosure.png' | relative_url }})
+
 Second is the **Injection of Disapproval**. You don't receive validation. Instead, you receive a signal of disapproval. It might be a condescending question ("A chef? *Beta*, how will you make a living?"), a disappointed silence, or a dismissive laugh.
 
 Third is the **Emotional Imprint**. This moment of social rejection creates a powerful emotional imprint. Their voice, their disappointed face, their skeptical tone—it gets burned into your memory, linked directly to your personal ambition.

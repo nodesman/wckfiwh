@@ -11,7 +11,11 @@ It is the silent, crushing expectation that the highest aspiration is a life fre
 
 Why are these choices, so often lauded as the pinnacle of success, so detrimental? Because they are a kind of death. They are the slow suicide of the soul.
 
-First, it is the **death of curiosity**. The path is a pre-defined checklist. Get the degree, pass the exam, get the promotion, buy the flat. There is no room for exploration, for trying something and failing, for discovering a passion at twenty-five that you didn't know you had at eighteen. You are on rails, and the scenery never changes.
+First, it is the **death of curiosity**. The path is a pre-defined checklist. Get the degree, pass the exam, get the promotion, buy the flat. There is no room for exploration, for trying something and failing, for discovering a passion at twenty-five that you didn't know you had at eighteen.
+
+![The Rails of the Safe Path: Trading curiosity for certainty]({{ '/assets/images/chapter-3-rails.png' | relative_url }})
+
+You are on rails, and the scenery never changes.
 
 Second, it is the **outsourcing of your identity**. Your identity is handed to you, pre-fabricated. You are not a person with unique interests and a complex inner world; you are your designation. "He is an IAS officer." "She is a bank manager." It requires no internal work, and therefore, allows for no personal growth.
 
