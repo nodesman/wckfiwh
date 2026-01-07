@@ -10,7 +10,21 @@ layout: default
     {{ content }}
   </div>
   <hr>
-  <nav>
-    <a href="{{ '/' | relative_url }}">← Back to Table of Contents</a>
+  <nav class="post-nav">
+    {% if page.previous %}
+      <a class="nav-link prev" href="{{ page.previous.url | relative_url }}">
+        <span class="nav-label">Previous Chapter</span>
+        <span class="nav-title">{{ page.previous.title }}</span>
+      </a>
+    {% else %}
+      <div class="nav-spacer"></div>
+    {% endif %}
+
+    {% if page.next %}
+      <a class="nav-link next" href="{{ page.next.url | relative_url }}">
+        <span class="nav-label">Next Chapter</span>
+        <span class="nav-title">{{ page.next.title }}</span>
+      </a>
+    {% endif %}
   </nav>
 </article>

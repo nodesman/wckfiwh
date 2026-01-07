@@ -176,6 +176,58 @@ body.drawer-open { overflow: hidden; }
 .breadcrumb .progress { position: relative; height: 4px; background: var(--border); width: 140px; overflow: hidden; }
 .breadcrumb .progress .bar { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: var(--accent); }
 
+/* Post Navigation */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+  font-family: var(--font-ui);
+}
+.nav-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border: 1px solid var(--border);
+  text-decoration: none !important;
+  transition: border-color 0.2s;
+}
+.nav-link:hover {
+  border-color: var(--fg);
+}
+.nav-link.next {
+  text-align: right;
+  align-items: flex-end;
+}
+.nav-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.nav-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--fg);
+  line-height: 1.3;
+}
+.nav-spacer {
+  flex: 1;
+}
+
+@media (max-width: 640px) {
+  .post-nav {
+    flex-direction: column;
+  }
+  .nav-link.next {
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--border);
