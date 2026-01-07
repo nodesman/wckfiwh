@@ -38,6 +38,9 @@ body {
   border-bottom: 1px solid var(--border);
   background: var(--bg);
   padding: 12px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .header-inner {
   position: relative;
@@ -367,15 +370,14 @@ img {
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--fg);
-  padding: 6px 14px;
+  padding: 8px;
   margin-left: 12px;
   box-shadow: var(--shadow);
   cursor: pointer;
-  font-family: var(--font-ui);
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }
 .install-button:hover, .share-page-btn:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -532,11 +534,10 @@ h1:hover .heading-share, h2:hover .heading-share, h3:hover .heading-share {
   .site-nav {
     display: flex;
     align-items: center;
-    margin-left: 8px;
+    margin-left: auto;
   }
   .share-page-btn {
-    padding: 6px 10px;
-    font-size: 0.65rem;
+    padding: 8px;
     margin: 0;
   }
   .install-button { display: none; } /* Keep header clean, trigger from JS if needed elsewhere */

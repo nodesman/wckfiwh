@@ -15,22 +15,25 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-controls="drawer" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <div class="branding">
-        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-        {% if site.description %}
-        <p class="site-tagline">{{ site.description }}</p>
-        {% endif %}
-      </div>
-      <nav class="site-nav">
-        <button id="installButton" class="install-button" hidden>Download Book</button>
-      </nav>
-    </div>
-  </header>
+    <header class="site-header">
+        <div class="container header-inner">
+            <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" aria-controls="drawer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="branding">
+                <a href="/" class="site-title">What to Keep from Indians</a>
+                <span class="site-tagline">Strategic Privacy & Social Autonomy</span>
+            </div>
+
+            <nav class="site-nav">
+                <!-- Share button will be injected here by JS -->
+                <button class="install-button" id="installBtn" style="display:none">Install App</button>
+            </nav>
+        </div>
+    </header>
 
   <aside class="drawer" id="drawer" aria-hidden="true">
     <div class="drawer-header">
