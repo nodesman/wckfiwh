@@ -89,3 +89,55 @@
   });
 })();
 
+// Sharing logic
+(function() {
+  function shareContent(title, text, url) {
+    if (navigator.share) {
+      navigator.share({ title: title, text: text, url: url })
+        .catch(function() { /* silence error */ });
+    } else {
+      // Fallback: Copy to clipboard
+      var dummy = document.createElement('input');
+      document.body.appendChild(dummy);
+      dummy.value = url;
+      dummy.select();
+      document.execCommand('copy');
+      document.body.removeChild(dummy);
+      alert('Link copied to clipboard');
+    }
+  }
+
+  // Add share button to nav
+  var nav = document.querySelector('.site-nav');
+  if (nav) {
+    var shareBtn = document.createElement('button');
+    shareBtn.className = 'share-page-btn';
+    shareBtn.innerHTML = 'Share';
+    nav.insertBefore(shareBtn, nav.firstChild);
+    shareBtn.addEventListener('click', function() {
+      shareContent(document.title, "Check out this chapter from 'What to Keep from Other Indians'", window.location.href);
+    });
+  }
+
+  // Add share anchors to headings
+  var headings = document.querySelectorAll('.post-content h1, .post-content h2, .post-content h3, .content-panel h1, .content-panel h2');
+  headings.forEach(function(h) {
+    if (!h.id) {
+      h.id = h.textContent.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+    }
+    
+    var anchor = document.createElement('button');
+    anchor.className = 'heading-share';
+    anchor.innerHTML = '#';
+    anchor.setAttribute('aria-label', 'Share this section');
+    h.appendChild(anchor);
+
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var url = window.location.origin + window.location.pathname + '#' + h.id;
+      shareContent(document.title + ' - ' + h.innerText.replace('#', '').trim(), "Reading: " + h.innerText.replace('#', '').trim(), url);
+    });
+  });
+})();
+

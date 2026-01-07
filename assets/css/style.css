@@ -361,18 +361,48 @@ img {
 }
 .muted { color: var(--muted); }
 
-/* Install button + iOS hint */
-.install-button {
+/* Install & Share buttons */
+.install-button, .share-page-btn {
   appearance: none;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--fg);
-  padding: 6px 10px;
-  margin-left: 18px;
+  padding: 6px 14px;
+  margin-left: 12px;
   box-shadow: var(--shadow);
   cursor: pointer;
+  font-family: var(--font-ui);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
 }
-.install-button:hover { border-color: var(--accent); color: var(--accent); }
+.install-button:hover, .share-page-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* Heading Share Anchors */
+h1, h2, h3 { position: relative; }
+.heading-share {
+  background: none;
+  border: 0;
+  color: var(--muted);
+  font-family: var(--font-serif);
+  font-size: 0.8em;
+  padding: 0 10px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+  vertical-align: middle;
+}
+h1:hover .heading-share, h2:hover .heading-share, h3:hover .heading-share {
+  opacity: 1;
+}
+.heading-share:hover { color: var(--fg); }
+
+@media (max-width: 640px) {
+  .heading-share { opacity: 0.4; } /* Always show slightly on mobile */
+  .share-page-btn { margin-left: 0; margin-right: 12px; }
+}
+
 .install-hint {
   position: fixed; left: 16px; right: 16px; bottom: 16px;
   background: var(--bg); color: var(--fg);
