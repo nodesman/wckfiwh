@@ -220,6 +220,10 @@ body.drawer-open { overflow: hidden; }
   /* Increase content spacing for breathing room */
   .content { padding-top: 40px; }
 
+  .content-panel {
+    padding: 20px 20px 32px;
+  }
+
   .header-inner {
     position: relative;
     justify-content: center; /* Center the branding */
@@ -229,7 +233,7 @@ body.drawer-open { overflow: hidden; }
 
   .hamburger {
     position: absolute;
-    left: -6px; /* Offset padding so the bars align with text grid */
+    left: 0; /* Align clickable area with the container edge */
     top: 50%;
     transform: translateY(-50%);
     margin: 0;
@@ -240,7 +244,7 @@ body.drawer-open { overflow: hidden; }
   .branding {
     text-align: center;
     width: 100%; /* Take full width to center text properly */
-    padding: 0 40px; /* Prevent text from overlapping hamburger */
+    padding: 0 44px; /* Prevent text from overlapping hamburger */
   }
   
   .branding .site-title {
