@@ -78,14 +78,10 @@ body {
 }
 
 .content-panel {
-  border-radius: 16px;
   border: 1px solid var(--border);
   padding: 24px 24px 40px;
   margin: 24px 0 40px;
-  background:
-    radial-gradient(circle at top left, rgba(88,166,255,0.12), transparent 55%),
-    var(--bg);
-  box-shadow: 0 22px 60px rgba(0,0,0,0.55);
+  background: var(--bg);
 }
 
 h1, h2, h3 {
@@ -132,14 +128,12 @@ code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   background: var(--code-bg);
   padding: 0.15rem 0.35rem;
-  border-radius: 6px;
   border: 1px solid var(--border);
 }
 pre code { padding: 0; border: 0; background: transparent; }
 pre {
   background: var(--code-bg);
   border: 1px solid var(--border);
-  border-radius: 8px;
   padding: 1rem;
   overflow: auto;
 }
@@ -150,7 +144,7 @@ th, td { border: 1px solid var(--border); padding: 0.55rem 0.6rem; }
 th { background: rgba(127,127,127,0.08); text-align: left; }
 
 /* Images */
-img { max-width: 100%; height: auto; border-radius: 6px; }
+img { max-width: 100%; height: auto; }
 
 /* Drawer */
 body.drawer-open { overflow: hidden; }
@@ -171,7 +165,7 @@ body.drawer-open { overflow: hidden; }
 /* Breadcrumb */
 .breadcrumb { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 0.95rem; margin-bottom: 8px; flex-wrap: wrap; }
 .breadcrumb .sep { color: var(--border); }
-.breadcrumb .progress { position: relative; height: 4px; background: var(--border); border-radius: 4px; width: 140px; overflow: hidden; }
+.breadcrumb .progress { position: relative; height: 4px; background: var(--border); width: 140px; overflow: hidden; }
 .breadcrumb .progress .bar { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: var(--accent); }
 
 /* Footer */
@@ -196,7 +190,6 @@ body.drawer-open { overflow: hidden; }
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--fg);
-  border-radius: 8px;
   padding: 6px 10px;
   margin-left: 18px;
   box-shadow: var(--shadow);
@@ -207,7 +200,7 @@ body.drawer-open { overflow: hidden; }
   position: fixed; left: 16px; right: 16px; bottom: 16px;
   background: var(--bg); color: var(--fg);
   border: 1px solid var(--border);
-  border-radius: 10px; padding: 10px 12px;
+  padding: 10px 12px;
   box-shadow: var(--shadow);
   font-size: 0.95rem;
 }
