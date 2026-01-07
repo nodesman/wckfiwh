@@ -3,6 +3,8 @@ layout: post
 title: "Chapter 1: The Man with the Five-Year-Old Phone & The Invisible Scan"
 ---
 
+![A caricature of a traditional Indian man](/assets/images/chapter-1-caricature.png)
+
 In India, every interaction is an interview.
 
 From the moment you enter a room, a silent, invisible scan begins. It is a social sonar, pinging off your accent, your clothes, your confidence, and the brand of your phone, sending back a detailed map of your place in the world. Most of us are completely unaware of this process. We move through our lives like open books, not realizing that every page is being read, interpreted, and filed away.
