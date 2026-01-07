@@ -48,7 +48,7 @@
     // Create a lightweight hint near the footer
     var hint = document.createElement('div');
     hint.className = 'install-hint';
-    hint.innerHTML = '<span>Tip: Add to Home Screen via Share → Add to Home Screen</span><button style="background:none;border:0;color:inherit;margin-left:10px;font-weight:bold;cursor:pointer">×</button>';
+    hint.innerHTML = '<span>Tip: Download this book via Share → Add to Home Screen</span><button style="background:none;border:0;color:inherit;margin-left:10px;font-weight:bold;cursor:pointer">×</button>';
     document.body.appendChild(hint);
 
     var dismiss = function() {
