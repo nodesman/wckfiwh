@@ -121,6 +121,19 @@ h1, h2, h3 {
 h1 { font-size: clamp(2.2rem, 5vw + 1rem, 2.8rem); letter-spacing: -0.03em; }
 h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
 
+p { margin: 1.2rem 0; }
+ul, ol { padding-left: 1.5rem; margin: 1.2rem 0; }
+li { margin: 0.6rem 0; }
+
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 3px solid var(--fg);
+  background: rgba(255, 255, 255, 0.03);
+  font-style: italic;
+  color: var(--muted);
+}
+
 /* Sidebar / Minimalist Index */
 .drawer {
   position: fixed;
@@ -286,6 +299,19 @@ h2 { font-size: 1.6rem; margin: 2.5rem 0 1rem; border-top: 1px solid var(--borde
     display: block;
     text-align: center;
   }
+}
+
+/* Tables */
+table { border-collapse: collapse; width: 100%; margin: 1.2rem 0; }
+th, td { border: 1px solid var(--border); padding: 0.55rem 0.6rem; }
+th { background: rgba(127,127,127,0.08); text-align: left; }
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
 }
 
 /* Footer */
