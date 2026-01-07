@@ -380,6 +380,10 @@ img {
   padding: 10px 12px;
   box-shadow: var(--shadow);
   font-size: 0.95rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3000;
 }
 
 /* Mobile tweaks */

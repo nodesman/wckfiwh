@@ -42,13 +42,24 @@
   // iOS guidance: show subtle hint if on iPhone/iPad Safari
   var isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
   var isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
-  if (isIOS && !isStandalone) {
+  var hintDismissed = localStorage.getItem('pwa_hint_dismissed');
+
+  if (isIOS && !isStandalone && !hintDismissed) {
     // Create a lightweight hint near the footer
     var hint = document.createElement('div');
     hint.className = 'install-hint';
-    hint.textContent = 'Tip: Add to Home Screen via Share → Add to Home Screen';
+    hint.innerHTML = '<span>Tip: Add to Home Screen via Share → Add to Home Screen</span><button style="background:none;border:0;color:inherit;margin-left:10px;font-weight:bold;cursor:pointer">×</button>';
     document.body.appendChild(hint);
-    setTimeout(function(){ hint.remove(); }, 10000);
+
+    var dismiss = function() {
+      hint.style.opacity = '0';
+      hint.style.transition = 'opacity 0.5s';
+      localStorage.setItem('pwa_hint_dismissed', 'true');
+      setTimeout(function() { hint.remove(); }, 500);
+    };
+
+    hint.querySelector('button').addEventListener('click', dismiss);
+    setTimeout(dismiss, 12000); // Auto-hide after 12s and save preference
   }
 })();
 
